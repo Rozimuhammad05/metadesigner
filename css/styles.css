@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Arial", sans-serif;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.container {
+  width: 1280px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.heding {
+  background-color: #282829;
+}
+
+.heding-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 15px;
+}
+
+.list-unstyled {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.item {
+  margin: 0;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+  text-decoration-line: none;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav-link:hover {
+  color: #f78b3b;
+}
+
+.nav-link:active {
+  opacity: 0.8;
+}
+
+.hero-section {
+  padding-block: 50px;
+}
+
+.hero {
+  background-image: url(../images/forest.png);
+  width: 1240px;
+  height: 420px;
+}
+
+.hero-box {
+  width: 743px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-title { 
+  color: #fff;
+  text-align: center;
+  margin-block: 0;
+  padding-block: 117px;
+  font-size: 88px;
+  line-height: 93px;
+}
+
+.servic-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.servic-item {
+  width: 393px;
+  margin-bottom: 60px;
+}
+
+.servic-title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px; 
+  font-size: 28px;
+  line-height: normal;
+}
+
+.servic-text {
+  color: #0009;
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.language-section {
+  margin-top: 15px;
+}
+
+.language-time {
+  display: block;
+  text-align: center;
+  margin-top: 43px; 
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.language-title {
+  font-family: "Open Sans";
+  font-size: 36px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 50px; 
+}
+
+.language-text {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.site-footer {
+  background-color: #282829;
+}
+
+.footer-box {
+  padding-block: 81px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-item {
+  margin-right: 56px;
+}
+
+.item-link {
+  margin: 0;
+}
+
+.footer-link {
+  color: #fff;
+  font-size: 16px;
+  text-decoration-line: none;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-link:hover {
+  color: #f00;
+}
+
+.footer-link:active {
+  opacity: 0.8;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  margin-block: 27px;
+}
+
+.footer-item-logo {
+  margin-right: 26px;
+}
+
+.footer-span {
+  display: block;
+  color: #ffffff99;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
